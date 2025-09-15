@@ -1181,3 +1181,487 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2025.09.15-19.38.24:859][180]AssetCheck: New page: Asset Save: multiple assets
 [2025.09.15-19.38.24:859][180]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2025.09.15-19.38.24:859][180]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2025.09.15-19.42.18:160][ 92]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Clare/Blueprints/BP_ClarePlayerController.BP_ClarePlayerController
+[2025.09.15-19.43.56:796][750]BlueprintLog: New page: Compile BP_ClarePlayerController
+[2025.09.15-19.43.56:826][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.09.15-19.43.58:006][819]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/BP_ClarePlayerController3DDC4CDF43DF61146EE3DC85BD402745.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Blueprints/BP_ClarePlayerController.uasset'
+[2025.09.15-19.43.58:020][819]AssetCheck: New page: Asset Save: BP_ClarePlayerController
+[2025.09.15-19.43.58:020][819]LogContentValidation: Display: Validating Blueprint /Game/Characters/Clare/Blueprints/BP_ClarePlayerController.BP_ClarePlayerController
+[2025.09.15-19.43.59:962][935]LogSlate: Window 'BP_ClarePlayerController' being destroyed
+[2025.09.15-19.43.59:968][935]LogSlate: Window 'BP_ClarePlayerController' being destroyed
+[2025.09.15-19.43.59:970][935]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-19.43.59:970][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-19.44.02:506][ 85]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.15-19.44.02:510][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-19.44.02:510][ 85]PIE: New page: PIE session: ThirdPersonExampleMap (15 sep. 2025 8:44:02)
+[2025.09.15-19.44.02:510][ 85]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-19.44.02:519][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008904s)
+[2025.09.15-19.44.02:520][ 85]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.15-19.44.02:520][ 85]LogPlayLevel: PIE: World Init took: (0.001638s)
+[2025.09.15-19.44.02:520][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010800s)
+[2025.09.15-19.44.02:537][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.09.15-19.44.02:539][ 85]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.15-19.44.02:539][ 85]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-19.44.02:539][ 85]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-19.44.02:539][ 85]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-19.44.02:539][ 85]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-19.44.02:539][ 85]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.15-19.44.02:542][ 85]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.15-19.44.02:542][ 85]LogAudioMixer: Display: 1: FrontRight
+[2025.09.15-19.44.02:571][ 85]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2025.09.15-19.44.02:572][ 85]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-19.44.02:572][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-19.44.02:572][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-19.44.02:572][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.15-19.44.02:572][ 85]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.15-19.44.02:572][ 85]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.15-19.44.02:573][ 85]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.15-19.44.02:573][ 85]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.15-19.44.02:573][ 85]LogInit: FAudioDevice initialized.
+[2025.09.15-19.44.02:573][ 85]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonExampleMap'.
+[2025.09.15-19.44.02:584][ 85]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.15-19.44.02:585][ 85]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2025.09.15-13.44.02
+[2025.09.15-19.44.02:585][ 85]LogWorld: Bringing up level for play took: 0.000711
+[2025.09.15-19.44.02:585][ 85]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2025.09.15-19.44.02:588][ 85]PIE: Server logged in
+[2025.09.15-19.44.02:588][ 85]PIE: Play in editor total start time 0.08 seconds.
+[2025.09.15-19.44.07:104][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-19.44.07:105][354]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-19.44.07:105][354]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-19.44.07:105][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-19.44.07:115][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-19.44.07:128][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-19.44.07:141][354]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-19.44.07:141][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-19.44.07:142][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-19.44.07:144][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-19.44.07:146][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.09.15-19.44.07:202][356]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.09.15-19.44.09:240][477]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-19.44.50:643][845]BlueprintLog: New page: Compile BP_ClareCharacter
+[2025.09.15-19.44.50:712][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.09.15-19.44.51:549][886]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/BP_ClareCharacter96877B6E42BC275E0D3CC88AFD36435A.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Blueprints/BP_ClareCharacter.uasset'
+[2025.09.15-19.44.51:561][886]AssetCheck: New page: Asset Save: BP_ClareCharacter
+[2025.09.15-19.44.51:561][886]LogContentValidation: Display: Validating Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-19.44.53:140][981]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-19.44.53:144][981]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-19.44.53:148][981]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-19.44.53:148][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-19.44.54:105][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.15-19.44.54:110][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-19.44.54:110][ 36]PIE: New page: PIE session: ThirdPersonExampleMap (15 sep. 2025 8:44:54)
+[2025.09.15-19.44.54:110][ 36]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-19.44.54:117][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007650s)
+[2025.09.15-19.44.54:118][ 36]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.15-19.44.54:119][ 36]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2025.09.15-19.44.54:119][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009053s)
+[2025.09.15-19.44.54:133][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.09.15-19.44.54:135][ 36]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.15-19.44.54:135][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-19.44.54:135][ 36]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-19.44.54:135][ 36]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-19.44.54:135][ 36]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-19.44.54:135][ 36]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.15-19.44.54:137][ 36]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.15-19.44.54:137][ 36]LogAudioMixer: Display: 1: FrontRight
+[2025.09.15-19.44.54:165][ 36]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2025.09.15-19.44.54:165][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-19.44.54:165][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-19.44.54:165][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-19.44.54:166][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.15-19.44.54:166][ 36]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.15-19.44.54:166][ 36]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.15-19.44.54:167][ 36]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.15-19.44.54:167][ 36]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.15-19.44.54:167][ 36]LogInit: FAudioDevice initialized.
+[2025.09.15-19.44.54:167][ 36]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonExampleMap'.
+[2025.09.15-19.44.54:172][ 36]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.15-19.44.54:173][ 36]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2025.09.15-13.44.54
+[2025.09.15-19.44.54:174][ 36]LogWorld: Bringing up level for play took: 0.000664
+[2025.09.15-19.44.54:174][ 36]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2025.09.15-19.44.54:176][ 36]PIE: Server logged in
+[2025.09.15-19.44.54:177][ 36]PIE: Play in editor total start time 0.068 seconds.
+[2025.09.15-19.45.07:924][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-19.45.07:924][858]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-19.45.07:924][858]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-19.45.07:925][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-19.45.07:936][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-19.45.07:948][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-19.45.07:960][858]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-19.45.07:960][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-19.45.07:962][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-19.45.07:966][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-19.45.07:968][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.09.15-19.45.07:996][859]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.09.15-20.04.11:547][450]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.06.04:696][198]BlueprintLog: New page: Compile BP_ClareCharacter
+[2025.09.15-20.06.04:726][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.15-20.06.06:093][277]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/BP_ClareCharacter7E289DF2441198752C6340B15D27BE27.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Blueprints/BP_ClareCharacter.uasset'
+[2025.09.15-20.06.06:106][277]AssetCheck: New page: Asset Save: BP_ClareCharacter
+[2025.09.15-20.06.06:106][277]LogContentValidation: Display: Validating Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.06.07:608][366]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-20.06.07:614][366]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-20.06.07:641][366]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.06.07:641][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.06.08:550][418]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.15-20.06.08:554][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-20.06.08:554][418]PIE: New page: PIE session: ThirdPersonExampleMap (15 sep. 2025 9:06:08)
+[2025.09.15-20.06.08:582][418]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.06.08:589][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007776s)
+[2025.09.15-20.06.08:591][418]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.15-20.06.08:591][418]LogPlayLevel: PIE: World Init took: (0.001364s)
+[2025.09.15-20.06.08:591][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009354s)
+[2025.09.15-20.06.08:606][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.15-20.06.08:608][418]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-20.06.08:608][418]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.15-20.06.08:608][418]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-20.06.08:609][418]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-20.06.08:609][418]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-20.06.08:609][418]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-20.06.08:609][418]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.15-20.06.08:611][418]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.15-20.06.08:611][418]LogAudioMixer: Display: 1: FrontRight
+[2025.09.15-20.06.08:641][418]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2025.09.15-20.06.08:641][418]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-20.06.08:641][418]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-20.06.08:641][418]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-20.06.08:641][418]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.15-20.06.08:641][418]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.15-20.06.08:641][418]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.15-20.06.08:642][418]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.15-20.06.08:642][418]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.15-20.06.08:642][418]LogInit: FAudioDevice initialized.
+[2025.09.15-20.06.08:642][418]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonExampleMap'.
+[2025.09.15-20.06.08:648][418]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.15-20.06.08:650][418]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2025.09.15-14.06.08
+[2025.09.15-20.06.08:650][418]LogWorld: Bringing up level for play took: 0.000684
+[2025.09.15-20.06.08:650][418]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2025.09.15-20.06.08:652][418]PIE: Server logged in
+[2025.09.15-20.06.08:653][418]PIE: Play in editor total start time 0.1 seconds.
+[2025.09.15-20.06.18:244][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.06.18:244][991]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.06.18:244][991]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.06.18:244][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.06.18:252][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-20.06.18:263][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.06.18:275][991]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-20.06.18:275][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.06.18:276][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.06.18:278][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.06.18:281][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.15-20.06.18:339][993]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.09.15-20.13.28:393][592]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.13.43:262][460]BlueprintLog: New page: Compile BP_ClareCharacter
+[2025.09.15-20.13.43:297][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.09.15-20.13.44:687][539]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/BP_ClareCharacter9AC747F5420A8F196805268003E88D58.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Blueprints/BP_ClareCharacter.uasset'
+[2025.09.15-20.13.44:699][539]AssetCheck: New page: Asset Save: BP_ClareCharacter
+[2025.09.15-20.13.44:699][539]LogContentValidation: Display: Validating Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.13.46:694][658]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.15-20.13.46:699][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-20.13.46:699][658]PIE: New page: PIE session: ThirdPersonExampleMap (15 sep. 2025 9:13:46)
+[2025.09.15-20.13.46:699][658]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.13.46:709][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008836s)
+[2025.09.15-20.13.46:710][658]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.15-20.13.46:710][658]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2025.09.15-20.13.46:710][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010325s)
+[2025.09.15-20.13.46:726][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.09.15-20.13.46:727][658]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.15-20.13.46:727][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-20.13.46:727][658]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-20.13.46:727][658]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-20.13.46:727][658]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-20.13.46:727][658]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.15-20.13.46:730][658]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.15-20.13.46:730][658]LogAudioMixer: Display: 1: FrontRight
+[2025.09.15-20.13.46:756][658]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2025.09.15-20.13.46:757][658]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-20.13.46:757][658]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-20.13.46:757][658]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-20.13.46:757][658]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.15-20.13.46:757][658]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.15-20.13.46:757][658]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.15-20.13.46:758][658]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.15-20.13.46:758][658]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.15-20.13.46:758][658]LogInit: FAudioDevice initialized.
+[2025.09.15-20.13.46:758][658]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonExampleMap'.
+[2025.09.15-20.13.46:765][658]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.15-20.13.46:766][658]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2025.09.15-14.13.46
+[2025.09.15-20.13.46:766][658]LogWorld: Bringing up level for play took: 0.000667
+[2025.09.15-20.13.46:766][658]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2025.09.15-20.13.46:769][658]PIE: Server logged in
+[2025.09.15-20.13.46:769][658]PIE: Play in editor total start time 0.071 seconds.
+[2025.09.15-20.14.02:483][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.14.02:483][598]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.14.02:483][598]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.14.02:484][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.14.02:491][598]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-20.14.02:504][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.14.02:517][598]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-20.14.02:518][598]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.14.02:519][598]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.14.02:521][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.14.02:523][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.09.15-20.14.02:575][600]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.09.15-20.14.21:956][238]BlueprintLog: New page: Compile BP_ClareCharacter
+[2025.09.15-20.14.21:989][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.09.15-20.14.22:416][261]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/BP_ClareCharacterC0B6BEC94B4C91FD41F7DBA1DB5F11BF.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Blueprints/BP_ClareCharacter.uasset'
+[2025.09.15-20.14.22:428][261]AssetCheck: New page: Asset Save: BP_ClareCharacter
+[2025.09.15-20.14.22:428][261]LogContentValidation: Display: Validating Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.14.23:424][320]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-20.14.23:429][320]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-20.14.23:432][320]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.14.23:432][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.14.23:947][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2025.09.15-20.14.24:532][383]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.15-20.14.24:537][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-20.14.24:537][383]PIE: New page: PIE session: ThirdPersonExampleMap (15 sep. 2025 9:14:24)
+[2025.09.15-20.14.24:537][383]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.14.24:544][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007402s)
+[2025.09.15-20.14.24:545][383]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.15-20.14.24:546][383]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2025.09.15-20.14.24:546][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008603s)
+[2025.09.15-20.14.24:559][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.09.15-20.14.24:562][383]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.15-20.14.24:562][383]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-20.14.24:562][383]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-20.14.24:562][383]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-20.14.24:562][383]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-20.14.24:562][383]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.15-20.14.24:564][383]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.15-20.14.24:564][383]LogAudioMixer: Display: 1: FrontRight
+[2025.09.15-20.14.24:592][383]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2025.09.15-20.14.24:592][383]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-20.14.24:592][383]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-20.14.24:592][383]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-20.14.24:592][383]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.15-20.14.24:592][383]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.15-20.14.24:592][383]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.15-20.14.24:593][383]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.15-20.14.24:593][383]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.15-20.14.24:593][383]LogInit: FAudioDevice initialized.
+[2025.09.15-20.14.24:593][383]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonExampleMap'.
+[2025.09.15-20.14.24:598][383]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.15-20.14.24:599][383]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2025.09.15-14.14.24
+[2025.09.15-20.14.24:599][383]LogWorld: Bringing up level for play took: 0.000696
+[2025.09.15-20.14.24:599][383]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2025.09.15-20.14.24:602][383]PIE: Server logged in
+[2025.09.15-20.14.24:603][383]PIE: Play in editor total start time 0.067 seconds.
+[2025.09.15-20.14.30:893][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.14.30:893][758]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.14.30:893][758]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.14.30:893][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.14.30:905][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-20.14.30:917][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.14.30:928][758]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-20.14.30:928][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.14.30:929][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.14.30:931][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.14.30:934][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.09.15-20.14.30:984][760]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.09.15-20.18.38:896][193]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.15-20.18.47:113][676]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.09.15-20.18.47:115][676]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.09.15-20.18.47:135][676]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2025.09.15-20.18.58:528][676]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2025.09.15-20.18.58:536][676]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2025.09.15-20.18.58:545][676]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2025.09.15-20.19.10:194][370]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> ABP_Clare
+[2025.09.15-20.19.10:197][370]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2025.09.15-20.19.22:502][876]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Clare/AnimationBP/ABP_Clare.ABP_Clare
+[2025.09.15-20.19.22:516][876]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2025.09.15-20.19.22:523][876]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2025.09.15-20.19.22:596][876]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2025.09.15-20.19.22:671][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.19.22:677][876]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2025.09.15-20.21.54:215][216]LogEditorTransaction: Undo Add Node
+[2025.09.15-20.21.54:283][216]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.24.07:623][777]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UActorComponent::GetOwner' [No se ha encontrado el elemento.]
+[2025.09.15-20.28.11:546][404]BlueprintLog: New page: Compile ABP_Clare
+[2025.09.15-20.28.11:609][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2025.09.15-20.28.24:137][149]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2025.09.15-20.28.24:140][149]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.28.24:380][150]LogRenderer: Reallocating scene render targets to support 1152x876 Format 10 NumSamples 1 (Frame:1).
+[2025.09.15-20.28.30:382][505]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2025.09.15-20.28.30:386][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.28.34:258][725]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D
+[2025.09.15-20.28.34:270][725]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.28.34:697][725]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2025.09.15-20.30.17:544][793]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ABP_Clare9824EDB64206C71EFC127E95847845E4.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/AnimationBP/ABP_Clare.uasset'
+[2025.09.15-20.30.17:565][793]AssetCheck: New page: Asset Save: ABP_Clare
+[2025.09.15-20.30.17:565][793]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Clare/AnimationBP/ABP_Clare.ABP_Clare
+[2025.09.15-20.30.20:185][948]LogSlate: Window 'ThirdPerson_IdleRun_2D' being destroyed
+[2025.09.15-20.30.20:191][948]LogSlate: Window 'ThirdPerson_IdleRun_2D' being destroyed
+[2025.09.15-20.30.20:221][948]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:221][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.20:230][948]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:231][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.20:296][948]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:296][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.20:316][948]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:316][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.20:362][948]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:362][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.20:400][948]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:400][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.20:436][948]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.30.20:436][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.30.56:317][337]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.09.15-20.30.56:327][337]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2025.09.15-20.30.56:340][337]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2025.09.15-20.31.13:782][ 70]LogContentBrowser: Attempting asset rename: NewBlendSpace -> ABP_Movement
+[2025.09.15-20.31.13:782][ 70]LogContentBrowser: End creating deferred item NewBlendSpace
+[2025.09.15-20.31.20:962][175]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Characters/Clare/Animations/ABP_Movement.ABP_Movement
+[2025.09.15-20.31.20:966][175]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.31.21:237][175]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2025.09.15-20.33.36:947][371]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ABP_MovementFCEDBD0546402D96F8A40788E02C5E86.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Animations/ABP_Movement.uasset'
+[2025.09.15-20.33.36:966][371]AssetCheck: New page: Asset Save: ABP_Movement
+[2025.09.15-20.33.36:966][371]LogContentValidation: Display: Validating BlendSpace /Game/Characters/Clare/Animations/ABP_Movement.ABP_Movement
+[2025.09.15-20.34.31:673][143]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ABP_Movement5E276AC14F83B460EE103DAE7780DC7E.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Animations/ABP_Movement.uasset'
+[2025.09.15-20.34.31:690][143]AssetCheck: New page: Asset Save: ABP_Movement
+[2025.09.15-20.34.31:690][143]LogContentValidation: Display: Validating BlendSpace /Game/Characters/Clare/Animations/ABP_Movement.ABP_Movement
+[2025.09.15-20.37.30:262][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2025.09.15-20.37.30:278][599]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.119
+[2025.09.15-20.37.30:280][599]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Clare/Animations/ABP_Movement] ([1] browsable assets)...
+[2025.09.15-20.37.30:299][599]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Characters/Clare/Animations/ABP_Movement.ABP_Movement]
+[2025.09.15-20.37.30:299][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Clare/Animations/ABP_Movement]
+[2025.09.15-20.37.30:307][599]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ABP_Movement_Auto2360919AD4A1C66FA111020B4D4AAD61C.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/Autosaves/Game/Characters/Clare/Animations/ABP_Movement_Auto2.uasset'
+[2025.09.15-20.37.30:308][599]LogFileHelpers: Auto-saving content packages took 0.029
+[2025.09.15-20.37.33:917][615]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ABP_MovementAF17A90F430DB48B35815B8BA3F23112.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Animations/ABP_Movement.uasset'
+[2025.09.15-20.37.33:930][615]AssetCheck: New page: Asset Save: ABP_Movement
+[2025.09.15-20.37.33:930][615]LogContentValidation: Display: Validating BlendSpace /Game/Characters/Clare/Animations/ABP_Movement.ABP_Movement
+[2025.09.15-20.37.37:818][847]LogSlate: Window 'ABP_Movement' being destroyed
+[2025.09.15-20.37.37:824][847]LogSlate: Window 'ABP_Movement' being destroyed
+[2025.09.15-20.37.37:825][847]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.37.37:825][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.37.37:864][847]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.37.37:864][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.37.43:091][909]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Characters/Clare/Animations/ABP_Movement.ABP_Movement
+[2025.09.15-20.37.43:097][909]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.37.43:365][909]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2025.09.15-20.37.45:213][ 19]LogSlate: Window 'ABP_Movement' being destroyed
+[2025.09.15-20.37.45:218][ 19]LogSlate: Window 'ABP_Movement' being destroyed
+[2025.09.15-20.37.45:241][ 19]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.37.45:241][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.37.45:278][ 19]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.37.45:278][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.37.50:245][315]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Clare/AnimationBP/ABP_Clare.ABP_Clare
+[2025.09.15-20.37.50:250][315]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.09.15-20.41.00:931][907]BlueprintLog: New page: Compile ABP_Clare
+[2025.09.15-20.41.01:023][907]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2025.09.15-20.41.01:582][936]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ABP_Clare97154CD64E75D6A4751D6FA43D14740D.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/AnimationBP/ABP_Clare.uasset'
+[2025.09.15-20.41.01:596][936]AssetCheck: New page: Asset Save: ABP_Clare
+[2025.09.15-20.41.01:596][936]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Clare/AnimationBP/ABP_Clare.ABP_Clare
+[2025.09.15-20.41.11:588][302]LogSlate: Window 'ABP_Clare' being destroyed
+[2025.09.15-20.41.11:594][302]LogSlate: Window 'ABP_Clare' being destroyed
+[2025.09.15-20.41.11:620][302]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.41.11:620][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.41.11:626][302]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.41.11:626][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.41.11:686][302]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.41.11:686][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.41.17:356][641]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.41.28:717][845]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.09.15-20.41.28:734][845]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.09.15-20.41.44:870][288]BlueprintLog: New page: Compile BP_ClareCharacter
+[2025.09.15-20.41.44:924][288]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2025.09.15-20.41.46:160][359]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/BP_ClareCharacter155052B247C266E06ABD5DBFA34AA0BB.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/Characters/Clare/Blueprints/BP_ClareCharacter.uasset'
+[2025.09.15-20.41.46:174][359]AssetCheck: New page: Asset Save: BP_ClareCharacter
+[2025.09.15-20.41.46:174][359]LogContentValidation: Display: Validating Blueprint /Game/Characters/Clare/Blueprints/BP_ClareCharacter.BP_ClareCharacter
+[2025.09.15-20.41.52:842][587]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-20.41.52:846][587]LogSlate: Window 'BP_ClareCharacter' being destroyed
+[2025.09.15-20.41.52:850][587]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.41.52:850][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.41.53:500][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2025.09.15-20.41.54:359][674]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.15-20.41.54:365][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.15-20.41.54:365][674]PIE: New page: PIE session: ThirdPersonExampleMap (15 sep. 2025 9:41:54)
+[2025.09.15-20.41.54:365][674]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.41.54:373][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008059s)
+[2025.09.15-20.41.54:374][674]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.15-20.41.54:374][674]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2025.09.15-20.41.54:374][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009329s)
+[2025.09.15-20.41.54:389][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.09.15-20.41.54:392][674]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.15-20.41.54:393][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.15-20.41.54:393][674]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.15-20.41.54:393][674]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.15-20.41.54:393][674]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.15-20.41.54:393][674]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.15-20.41.54:396][674]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.15-20.41.54:396][674]LogAudioMixer: Display: 1: FrontRight
+[2025.09.15-20.41.54:423][674]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2025.09.15-20.41.54:423][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.15-20.41.54:423][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.15-20.41.54:423][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.15-20.41.54:423][674]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.15-20.41.54:423][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.15-20.41.54:423][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.15-20.41.54:424][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.15-20.41.54:424][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.15-20.41.54:424][674]LogInit: FAudioDevice initialized.
+[2025.09.15-20.41.54:424][674]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonExampleMap'.
+[2025.09.15-20.41.54:430][674]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.15-20.41.54:432][674]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2025.09.15-14.41.54
+[2025.09.15-20.41.54:432][674]LogWorld: Bringing up level for play took: 0.000713
+[2025.09.15-20.41.54:432][674]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2025.09.15-20.41.54:435][674]PIE: Server logged in
+[2025.09.15-20.41.54:435][674]PIE: Play in editor total start time 0.072 seconds.
+[2025.09.15-20.42.19:492][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.42.19:492][175]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.15-20.42.19:492][175]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-20.42.19:492][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.42.19:499][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.15-20.42.19:513][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-20.42.19:524][175]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.15-20.42.19:524][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.42.19:526][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.15-20.42.19:527][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.15-20.42.19:529][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.09.15-20.42.19:592][177]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2025.09.15-20.42.28:969][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.09.15-20.42.28:983][296]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ThirdPersonExampleMap56854A834CA1889FD413B795F6DAE9FE.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2025.09.15-20.42.29:050][296]LogSavePackage: Moving '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Saved/ThirdPersonExampleMap_BuiltData53F8F19946F061C6BA897B9F3309E3C8.tmp' to '../../../../../Proyectos UE 4.27/TasteOfMadness/TasteOfMadness/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2025.09.15-20.42.29:065][296]AssetCheck: New page: Asset Save: multiple assets
+[2025.09.15-20.42.29:065][296]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2025.09.15-20.42.29:065][296]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap

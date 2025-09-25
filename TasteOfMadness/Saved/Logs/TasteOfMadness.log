@@ -1272,3 +1272,76 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2025.09.25-23.50.14:492][173]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/TasteOfMadness/TasteOfMadness/Saved/ThirdPersonExampleMap7CC9C38E42FA2029B959EB88A5144C7F.tmp' to 'C:/Users/PC/Documents/GitHub/TasteOfMadness/TasteOfMadness/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2025.09.25-23.50.14:532][173]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2025.09.25-23.50.14:532][173]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2025.09.25-23.51.35:726][989]LogTemp: Repeating last play command: Selected Viewport
+[2025.09.25-23.51.35:730][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.25-23.51.35:730][989]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (25 sep. 2025 12:51:35)
+[2025.09.25-23.51.35:730][989]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.25-23.51.35:738][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008359s)
+[2025.09.25-23.51.35:740][989]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2025.09.25-23.51.35:740][989]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2025.09.25-23.51.35:740][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009787s)
+[2025.09.25-23.51.35:745][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.09.25-23.51.35:746][989]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.25-23.51.35:746][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.09.25-23.51.35:746][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.25-23.51.35:747][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.25-23.51.35:747][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.25-23.51.35:747][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.25-23.51.35:747][989]LogAudioMixer: Display: Initializing audio mixer.
+[2025.09.25-23.51.35:751][989]LogAudioMixer: Display: 0: FrontLeft
+[2025.09.25-23.51.35:751][989]LogAudioMixer: Display: 1: FrontRight
+[2025.09.25-23.51.35:758][989]LogAudioMixer: Display: Using Audio Device Auriculares (QS-8510 Stereo)
+[2025.09.25-23.51.35:759][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.25-23.51.35:759][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.25-23.51.35:759][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.25-23.51.35:759][989]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.09.25-23.51.35:759][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.09.25-23.51.35:759][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.09.25-23.51.35:760][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.09.25-23.51.35:760][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.09.25-23.51.35:760][989]LogInit: FAudioDevice initialized.
+[2025.09.25-23.51.35:760][989]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2025.09.25-23.51.35:769][989]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.25-23.51.35:771][989]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2025.09.25-17.51.35
+[2025.09.25-23.51.35:771][989]LogWorld: Bringing up level for play took: 0.001221
+[2025.09.25-23.51.35:771][989]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2025.09.25-23.51.35:773][989]PIE: El servidor ha iniciado la sesión
+[2025.09.25-23.51.35:774][989]PIE: Play in editor total start time 0.045 seconds.
+[2025.09.25-23.51.38:471][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-23.51.38:471][295]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2025.09.25-23.51.38:471][295]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.25-23.51.38:471][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-23.51.38:478][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.25-23.51.38:491][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.25-23.51.38:494][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.25-23.51.38:494][295]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.25-23.51.38:495][295]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.09.25-23.51.38:498][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.25-23.51.38:539][297]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.09.25-23.53.18:416][325]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2025.09.25-23.53.18:431][325]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2025.09.25-23.53.22:379][788]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Meshes
+[2025.09.25-23.53.22:380][788]LogContentBrowser: End creating deferred item Carpeta nueva
+[2025.09.25-23.53.24:225][985]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2025.09.25-23.53.24:231][985]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2025.09.25-23.53.32:167][688]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Bp_
+[2025.09.25-23.53.32:168][688]LogContentBrowser: End creating deferred item Carpeta nueva
+[2025.09.25-23.53.40:547][569]LogContentBrowser: Attempting asset rename: Bp_ -> Bp_rata
+[2025.09.25-23.53.44:315][872]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2025.09.25-23.53.44:331][872]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2025.09.25-23.53.47:468][242]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Animations
+[2025.09.25-23.53.47:468][242]LogContentBrowser: End creating deferred item Carpeta nueva
+[2025.09.25-23.53.54:598][432]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2025.09.25-23.53.54:614][432]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2025.09.25-23.53.59:837][ 49]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Materials
+[2025.09.25-23.53.59:838][ 49]LogContentBrowser: End creating deferred item Carpeta nueva
+[2025.09.25-23.54.04:421][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.09.25-23.54.04:435][586]LogSavePackage: Moving 'C:/Users/PC/Documents/GitHub/TasteOfMadness/TasteOfMadness/Saved/ThirdPersonExampleMap0747D94E473AD5DA07AD54BB2EA2BBEF.tmp' to 'C:/Users/PC/Documents/GitHub/TasteOfMadness/TasteOfMadness/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2025.09.25-23.54.04:457][586]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2025.09.25-23.54.04:457][586]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap

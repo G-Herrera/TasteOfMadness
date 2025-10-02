@@ -73,6 +73,7 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+<<<<<<< HEAD
 "Binaries/" 
 "DerivedDataCache/" 
 "Intermediate/" 
@@ -83,3 +84,5 @@ DerivedDataCache/*
 "*.sdf" 
 "*.suo" 
 "*.xcodeproj" 
+=======
+>>>>>>> e3cf5d6888c88d740ad9b8efc49442abac7521e6

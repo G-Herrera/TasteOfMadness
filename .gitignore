@@ -1,6 +1,24 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.suo
+*.sdf
+*.opensdf
+*.VC.opendb
+
+# Logs
+*.log
+
+# Config temporales de usuario
+*.vs/
+*.vscode/
+.idea/
 # Compiled Object files
 *.slo
 *.lo

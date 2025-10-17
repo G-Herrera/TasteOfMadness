@@ -3075,3 +3075,101 @@ Script Stack (0 frames):
 [2025.10.16-23.14.49:726][834]Cmd: TRANSACTION UNDO
 [2025.10.16-23.14.49:726][834]LogEditorTransaction: Undo Add New Function
 [2025.10.16-23.16.48:468][799]LogEditorTransaction: Undo Add Variable
+[2025.10.16-23.18.38:424][779]Cmd: TRANSACTION UNDO
+[2025.10.16-23.18.38:424][779]LogEditorTransaction: Undo Add New Function
+[2025.10.16-23.19.22:815][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuPausa" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPausa.uasset" SILENT=true
+[2025.10.16-23.19.22:820][101]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPausa38369FC24AAE61BC701EB78C728598E2.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPausa.uasset'
+[2025.10.16-23.19.22:837][101]AssetCheck: New page: Asset Save: WBP_MenuPausa
+[2025.10.16-23.19.22:837][101]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuPausa.WBP_MenuPausa
+[2025.10.16-23.19.23:684][152]BlueprintLog: New page: Compile WBP_MenuPausa
+[2025.10.16-23.19.23:722][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2025.10.16-23.19.25:917][282]LogSlate: Window 'WBP_MenuPausa' being destroyed
+[2025.10.16-23.19.25:925][282]LogSlate: Window 'WBP_MenuPausa' being destroyed
+[2025.10.16-23.19.25:963][282]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-23.19.25:963][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-23.19.25:972][282]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.10.16-23.19.25:972][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.16-23.19.27:616][376]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Widgets/WBP_MenuPausa.WBP_MenuPausa
+[2025.10.16-23.41.42:859][152]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.16-23.41.42:896][152]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.16-23.41.42:896][152]LogAudioMixer: Display: 1: FrontRight
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0EC0594A-4005-64A4-8C5A-8098BE3D81D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d342314e20 [can pipeline])
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 1 (Re-using existing connection! (#46) with host datarouter.ol.epicgames.com)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.224.80.198) port 443 (#46))
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 5 (We are completely uploaded and fine)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 6 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 7 (Connection died, retrying a fresh connect)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 8 (necessary data rewind wasn't possible)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 9 (Closing connection 46)
+[2025.10.16-23.41.43:435][155]LogHttp: Warning: 000001D4264E4F00: libcurl info message cache 10 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.10.16-23.41.43:761][156]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0EC0594A-4005-64A4-8C5A-8098BE3D81D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.10.16-23.49.47:199][433]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.16-23.49.47:223][433]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.16-23.49.47:223][433]LogAudioMixer: Display: 1: FrontRight
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0EC0594A-4005-64A4-8C5A-8098BE3D81D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d342316830 [can pipeline])
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 1 (Re-using existing connection! (#47) with host datarouter.ol.epicgames.com)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.88.77.198) port 443 (#47))
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 5 (We are completely uploaded and fine)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 6 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 7 (Connection died, retrying a fresh connect)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 8 (necessary data rewind wasn't possible)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 9 (Closing connection 47)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: 000001D3E670B200: libcurl info message cache 10 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.10.16-23.49.47:690][436]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0EC0594A-4005-64A4-8C5A-8098BE3D81D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.10.16-23.51.42:081][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.10.16-23.51.42:083][682]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/PropsMichelle' took 0.030
+[2025.10.16-23.51.42:083][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/WBP_MenuPausa] ([4] browsable assets)...
+[2025.10.16-23.51.42:083][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/WBP_MenuPausa]
+[2025.10.16-23.51.42:090][682]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPausa_Auto4DE88BC2840DF9B0D371A49898E1553E6.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/Autosaves/Game/UI/Widgets/WBP_MenuPausa_Auto4.uasset'
+[2025.10.16-23.51.42:091][682]LogFileHelpers: Auto-saving content packages took 0.007
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0EC0594A-4005-64A4-8C5A-8098BE3D81D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d342315360 [can pipeline])
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 1 (Re-using existing connection! (#48) with host datarouter.ol.epicgames.com)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.212.152.18) port 443 (#48))
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 3 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 4 (TLSv1.3 (OUT), TLS Unknown, Unknown (23):)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 5 (We are completely uploaded and fine)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 6 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 7 (Connection died, retrying a fresh connect)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 8 (necessary data rewind wasn't possible)
+[2025.10.17-00.06.25:690][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 9 (Closing connection 48)
+[2025.10.17-00.06.25:691][507]LogHttp: Warning: 000001D40CD0C800: libcurl info message cache 10 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.10.17-00.06.26:019][508]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0EC0594A-4005-64A4-8C5A-8098BE3D81D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.10.17-00.10.26:715][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.17-00.10.26:715][548]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/PropsMichelle' took 0.023
+[2025.10.17-00.10.26:716][548]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/WBP_MenuPausa] ([4] browsable assets)...
+[2025.10.17-00.10.26:716][548]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/WBP_MenuPausa]
+[2025.10.17-00.10.26:722][548]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPausa_Auto5BBB2B08046D584E453E69B9E098A094C.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/Autosaves/Game/UI/Widgets/WBP_MenuPausa_Auto5.uasset'
+[2025.10.17-00.10.26:723][548]LogFileHelpers: Auto-saving content packages took 0.008
+[2025.10.17-00.11.53:949][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuPausa" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPausa.uasset" SILENT=true
+[2025.10.17-00.11.53:955][704]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPausa467FCAB04F00318FC5761C941ADC7C1C.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPausa.uasset'
+[2025.10.17-00.11.53:969][704]AssetCheck: New page: Asset Save: WBP_MenuPausa
+[2025.10.17-00.11.53:969][704]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuPausa.WBP_MenuPausa
+[2025.10.17-00.11.54:446][733]BlueprintLog: New page: Compile WBP_MenuPausa
+[2025.10.17-00.11.54:476][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.17-00.11.55:551][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuPausa" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPausa.uasset" SILENT=true
+[2025.10.17-00.11.55:557][794]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPausa6F1F426B497282E31FD56BA4027792EE.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPausa.uasset'
+[2025.10.17-00.11.55:572][794]AssetCheck: New page: Asset Save: WBP_MenuPausa
+[2025.10.17-00.11.55:572][794]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuPausa.WBP_MenuPausa
+[2025.10.17-00.11.57:382][901]LogSlate: Window 'WBP_MenuPausa' being destroyed
+[2025.10.17-00.11.57:392][901]LogSlate: Window 'WBP_MenuPausa' being destroyed
+[2025.10.17-00.11.57:394][901]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-00.11.57:394][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-00.11.57:401][901]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.10.17-00.11.57:401][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.17-00.12.06:692][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.10.17-00.12.06:731][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/PropsMichelle" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/Maps/PropsMichelle.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.17-00.12.06:754][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.10.17-00.12.06:760][441]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/PropsMichelleCE8B263B4BA4F51B555BC09B21152D12.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/Maps/PropsMichelle.umap'
+[2025.10.17-00.12.06:780][441]LogFileHelpers: Saving map 'PropsMichelle' took 0.049
+[2025.10.17-00.12.06:796][441]AssetCheck: New page: Asset Save: PropsMichelle
+[2025.10.17-00.12.06:796][441]LogContentValidation: Display: Validating World /Game/Maps/PropsMichelle.PropsMichelle

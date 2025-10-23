@@ -77,6 +77,10 @@ Plugins/**/Intermediate/*
 
 # Misc editor-specific caches
 DerivedDataCache/*
+
+/TasteOfMadness/Saved/
+/TasteOfMadness/Intermediate/
+                                                            
 *.log
 *.bin
 
@@ -84,3 +88,4 @@ DerivedDataCache/*
 *_Auto*.umap
 *_Auto*.uasset
 *.tmp
+

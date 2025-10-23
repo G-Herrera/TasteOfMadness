@@ -3113,3 +3113,902 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2025.10.22-22.00.17:066][226]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
 [2025.10.22-22.00.17:067][226]PIE: Server logged in
 [2025.10.22-22.00.17:068][226]PIE: Play in editor total start time 0.094 seconds.
+[2025.10.22-22.01.24:890][855]LogNet: Browse: /Game/Maps/PropsMichelle
+[2025.10.22-22.01.24:891][855]LogLoad: LoadMap: /Game/Maps/PropsMichelle
+[2025.10.22-22.01.24:891][855]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.22-22.01.24:891][855]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-22.01.24:891][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-22.01.24:959][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-22.01.24:963][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.10.22-22.01.24:964][855]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.22-22.01.24:965][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002082s)
+[2025.10.22-22.01.24:966][855]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.22-22.01.24:967][855]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2025.10.22-22.01.24:967][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.003433s)
+[2025.10.22-22.01.24:967][855]LogAudio: Display: Audio Device (ID: 26) registered with world 'PropsMichelle'.
+[2025.10.22-22.01.24:967][855]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.22-22.01.24:968][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 60) at 2025.10.22-16.01.24
+[2025.10.22-22.01.24:968][855]LogWorld: Bringing up level for play took: 0.000331
+[2025.10.22-22.01.24:970][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.22-22.01.24:971][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.22-22.01.24:973][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.22-22.01.24:973][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.22-22.01.24:976][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.22-22.01.24:977][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.22-22.01.24:979][855]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.22-22.01.24:980][855]LogLoad: Took 0.088599 seconds to LoadMap(/Game/Maps/UEDPIE_0_PropsMichelle)
+[2025.10.22-22.01.25:564][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-22.01.25:565][890]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.22-22.01.25:586][890]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-22.01.25:586][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-22.01.25:606][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-22.01.25:612][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-22.01.25:647][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-22.01.25:647][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.22-22.01.25:648][890]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.22-22.01.25:654][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.10.22-22.01.25:684][891]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.10.22-22.01.34:734][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E662470-4D65-0C88-4472-54A88329D578%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: libcurl info message cache 0 (Connection 11 seems to be dead!)
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: libcurl info message cache 1 (Closing connection 11)
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: libcurl info message cache 2 (TLSv1.3 (OUT), TLS Unknown, Unknown (21):)
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.10.22-22.56.27:281][735]LogHttp: Warning: 00000252429F5600: libcurl info message cache 4 (Closing connection 12)
+[2025.10.22-22.56.27:553][736]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E662470-4D65-0C88-4472-54A88329D578%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.10.22-22.56.29:557][741]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateKnownNodes received negative NodeByteSent (-1) from socket.
+[2025.10.22-22.56.29:557][741]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.10.22-22.56.31:906][748]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.22-22.56.31:957][748]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.22-22.56.31:957][748]LogAudioMixer: Display: 1: FrontRight
+[2025.10.22-23.02.27:050][756]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateKnownNodes received negative NodeByteSent (-1) from socket.
+[2025.10.22-23.02.27:050][756]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateKnownNodes received negative NodeByteSent (-1) from socket.
+[2025.10.22-23.02.27:296][756]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateKnownNodes received negative NodeByteSent (-1) from socket.
+[2025.10.22-23.02.27:296][756]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateKnownNodes received negative NodeByteSent (-1) from socket.
+[2025.10.22-23.02.27:296][756]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.10.22-23.02.28:054][756]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.22-23.02.28:120][756]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.22-23.02.28:120][756]LogAudioMixer: Display: 1: FrontRight
+[2025.10.22-23.02.28:360][757]LogHttp: Warning: 00000252429F5600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E662470-4D65-0C88-4472-54A88329D578%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.10.22-23.02.28:360][757]LogHttp: Warning: 00000252429F5600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.10.22-23.02.28:360][757]LogHttp: Warning: 00000252429F5600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.10.22-23.02.28:360][757]LogHttp: Warning: 00000252429F5600: libcurl info message cache 1 (Closing connection 13)
+[2025.10.22-23.02.28:370][758]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E662470-4D65-0C88-4472-54A88329D578%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d7a7915b408096e37c5bfc84cd1f3308%7C80351ff06e134d34adfb00624a52698f%7C979a6d00-380c-4382-b5dd-00a4368c95ba&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.10.22-23.02.35:567][776]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.10.23-05.18.15:317][777]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2025.10.23-05.18.17:333][777]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.23-05.18.17:408][777]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-05.18.17:409][777]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-05.40.47:489][360]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.23-05.40.47:527][360]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-05.40.47:527][360]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-05.42.24:255][995]LogSlate: Window 'PropsMichelle' being destroyed
+[2025.10.23-05.42.24:285][995]LogSlate: Window 'PropsMichelle' being destroyed
+[2025.10.23-05.42.24:307][995]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:307][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.24:331][995]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:332][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.24:627][995]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:627][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.24:638][995]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:639][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.24:752][995]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:752][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.24:761][995]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:761][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.24:854][995]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.24:854][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.25:494][ 17]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-05.42.25:505][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-05.42.25:505][ 17]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 18:42:25)
+[2025.10.23-05.42.25:506][ 17]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-05.42.25:512][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006283s)
+[2025.10.23-05.42.25:513][ 17]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-05.42.25:515][ 17]LogPlayLevel: PIE: World Init took: (0.003649s)
+[2025.10.23-05.42.25:515][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.010213s)
+[2025.10.23-05.42.25:573][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2025.10.23-05.42.25:579][ 17]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-05.42.25:579][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-05.42.25:579][ 17]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-05.42.25:579][ 17]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-05.42.25:579][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-05.42.25:579][ 17]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-05.42.25:592][ 17]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-05.42.25:592][ 17]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-05.42.25:643][ 17]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-05.42.25:646][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-05.42.25:646][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-05.42.25:646][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-05.42.25:646][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-05.42.25:646][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-05.42.25:646][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-05.42.25:648][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-05.42.25:648][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-05.42.25:648][ 17]LogInit: FAudioDevice initialized.
+[2025.10.23-05.42.25:648][ 17]LogAudio: Display: Audio Device (ID: 27) registered with world 'PropsMichelle'.
+[2025.10.23-05.42.25:664][ 17]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-05.42.25:667][ 17]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 60) at 2025.10.22-23.42.25
+[2025.10.23-05.42.25:668][ 17]LogWorld: Bringing up level for play took: 0.001128
+[2025.10.23-05.42.25:668][ 17]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2025.10.23-05.42.25:675][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-05.42.25:677][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-05.42.25:679][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-05.42.25:683][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-05.42.25:685][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-05.42.25:687][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-05.42.25:689][ 17]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-05.42.25:691][ 17]PIE: Server logged in
+[2025.10.23-05.42.25:692][ 17]PIE: Play in editor total start time 0.188 seconds.
+[2025.10.23-05.42.30:553][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-05.42.30:553][306]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-05.42.30:553][306]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.30:554][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.30:573][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-05.42.30:581][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.30:610][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-05.42.30:610][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-05.42.30:612][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-05.42.30:624][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.10.23-05.42.30:652][307]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2025.10.23-05.42.31:757][354]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-05.42.31:769][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-05.42.31:769][354]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 18:42:31)
+[2025.10.23-05.42.31:771][354]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-05.42.31:776][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004991s)
+[2025.10.23-05.42.31:777][354]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-05.42.31:778][354]LogPlayLevel: PIE: World Init took: (0.001891s)
+[2025.10.23-05.42.31:778][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.007181s)
+[2025.10.23-05.42.31:809][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2025.10.23-05.42.31:811][354]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-05.42.31:811][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-05.42.31:811][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-05.42.31:812][354]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-05.42.31:812][354]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-05.42.31:812][354]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-05.42.31:812][354]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-05.42.31:815][354]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-05.42.31:815][354]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-05.42.31:857][354]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-05.42.31:858][354]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-05.42.31:858][354]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-05.42.31:858][354]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-05.42.31:858][354]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-05.42.31:860][354]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-05.42.31:860][354]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-05.42.31:861][354]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-05.42.31:861][354]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-05.42.31:861][354]LogInit: FAudioDevice initialized.
+[2025.10.23-05.42.31:861][354]LogAudio: Display: Audio Device (ID: 28) registered with world 'PropsMichelle'.
+[2025.10.23-05.42.31:870][354]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-05.42.31:872][354]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 60) at 2025.10.22-23.42.31
+[2025.10.23-05.42.31:872][354]LogWorld: Bringing up level for play took: 0.000638
+[2025.10.23-05.42.31:872][354]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2025.10.23-05.42.31:877][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-05.42.31:881][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-05.42.31:884][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-05.42.31:888][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-05.42.31:892][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-05.42.31:896][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-05.42.31:899][354]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-05.42.31:903][354]PIE: Server logged in
+[2025.10.23-05.42.31:904][354]PIE: Play in editor total start time 0.136 seconds.
+[2025.10.23-05.42.35:627][577]LogNet: Browse: /Game/Maps/PropsMichelle
+[2025.10.23-05.42.35:627][577]LogLoad: LoadMap: /Game/Maps/PropsMichelle
+[2025.10.23-05.42.35:627][577]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-05.42.35:628][577]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.35:628][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.35:683][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-05.42.35:692][577]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2025.10.23-05.42.35:694][577]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-05.42.35:698][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003778s)
+[2025.10.23-05.42.35:699][577]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-05.42.35:700][577]LogPlayLevel: PIE: World Init took: (0.001905s)
+[2025.10.23-05.42.35:700][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.005977s)
+[2025.10.23-05.42.35:700][577]LogAudio: Display: Audio Device (ID: 28) registered with world 'PropsMichelle'.
+[2025.10.23-05.42.35:700][577]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-05.42.35:702][577]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 60) at 2025.10.22-23.42.35
+[2025.10.23-05.42.35:702][577]LogWorld: Bringing up level for play took: 0.000543
+[2025.10.23-05.42.35:706][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-05.42.35:709][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-05.42.35:711][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-05.42.35:714][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-05.42.35:717][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-05.42.35:721][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-05.42.35:724][577]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-05.42.35:728][577]LogLoad: Took 0.100142 seconds to LoadMap(/Game/Maps/UEDPIE_0_PropsMichelle)
+[2025.10.23-05.42.37:979][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-05.42.37:979][711]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-05.42.38:002][711]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-05.42.38:003][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.38:013][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-05.42.38:023][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-05.42.38:061][711]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-05.42.38:061][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-05.42.38:062][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-05.42.38:064][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-05.42.38:071][711]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2025.10.23-05.42.38:118][712]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.10.23-06.27.33:729][182]LogAudioMixer: Resetting audio stream to device id 
+[2025.10.23-06.27.33:768][182]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.27.33:768][182]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.28.48:225][966]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Widgets/WBP_MenuPausa.WBP_MenuPausa
+[2025.10.23-06.28.53:387][216]LogSlate: Window 'WBP_MenuPausa' being destroyed
+[2025.10.23-06.28.53:429][216]LogSlate: Window 'WBP_MenuPausa' being destroyed
+[2025.10.23-06.28.53:434][216]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.28.53:435][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.28.53:450][216]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.28.53:451][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.28.55:183][316]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Widgets/WBP_MenuPrincipal.WBP_MenuPrincipal
+[2025.10.23-06.30.42:811][637]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.30.42:821][637]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.10.23-06.30.42:822][637]LogPlayLevel: [PlayLevel] Compiling WBP_MenuPrincipal before play...
+[2025.10.23-06.30.42:891][637]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2025.10.23-06.30.42:897][637]LogPlayLevel: PlayLevel: Blueprint regeneration took 76 ms (1 blueprints)
+[2025.10.23-06.30.42:897][637]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:30:42)
+[2025.10.23-06.30.42:897][637]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.30.42:900][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003307s)
+[2025.10.23-06.30.42:902][637]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.30.42:902][637]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2025.10.23-06.30.42:902][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.005080s)
+[2025.10.23-06.30.42:934][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2025.10.23-06.30.42:934][637]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.10.23-06.30.42:934][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.30.42:934][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.30.42:934][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.30.42:934][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.30.42:934][637]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.30.42:935][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.30.42:935][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.30.42:935][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.30.42:935][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.30.42:935][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.30.42:935][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.30.42:935][637]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.30.42:939][637]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.30.42:939][637]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.30.42:993][637]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.30.42:994][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.30.42:994][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.30.42:994][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.30.42:995][637]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.30.42:995][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.30.42:995][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.30.42:998][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.30.42:998][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.30.42:998][637]LogInit: FAudioDevice initialized.
+[2025.10.23-06.30.42:998][637]LogAudio: Display: Audio Device (ID: 29) registered with world 'PropsMichelle'.
+[2025.10.23-06.30.43:012][637]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.30.43:014][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.30.43
+[2025.10.23-06.30.43:014][637]LogWorld: Bringing up level for play took: 0.001101
+[2025.10.23-06.30.43:014][637]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2025.10.23-06.30.43:021][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.30.43:024][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.30.43:028][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.30.43:031][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.30.43:033][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.30.43:035][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.30.43:039][637]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.30.43:042][637]PIE: Server logged in
+[2025.10.23-06.30.43:043][637]PIE: Play in editor total start time 0.223 seconds.
+[2025.10.23-06.30.47:026][867]LogPackageName: SearchForPackageOnDisk took   0.652s, but failed to resolve None.umap.
+[2025.10.23-06.30.47:180][867]LogPackageName: SearchForPackageOnDisk took   0.152s, but failed to resolve None.umap.
+[2025.10.23-06.30.47:181][867]LogNet: Browse: /Game/Maps/MainPersistent
+[2025.10.23-06.30.47:181][867]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.30.47:182][867]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.30.47:182][867]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.30.47:183][867]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.30.47:183][867]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.30.47:183][867]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.30.47:208][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.30.47:208][867]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.30.47:209][867]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.30.47:209][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.30.47:222][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.30.47:228][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.30.47:255][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.30.47:255][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.30.47:257][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.30.47:267][867]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2025.10.23-06.30.47:424][868]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.10.23-06.30.49:346][945]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.30.49:398][945]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.31.28:512][ 13]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Widgets/WBP_MenuPausa.WBP_MenuPausa
+[2025.10.23-06.32.21:253][658]BlueprintLog: New page: Compile WBP_MenuPrincipal
+[2025.10.23-06.32.21:267][658]LogBlueprint: Warning: [AssetLog] C:\GitHub\TasteOfMadness\TasteOfMadness\Content\UI\Widgets\WBP_MenuPrincipal.uasset: [Compiler] On Clicked (GuardarPartida)  does not have a valid matching component!
+[2025.10.23-06.32.21:322][658]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2025.10.23-06.32.40:213][451]BlueprintLog: New page: Compile WBP_MenuPrincipal
+[2025.10.23-06.32.40:256][451]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2025.10.23-06.32.41:174][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuPrincipal" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPrincipal.uasset" SILENT=true
+[2025.10.23-06.32.41:204][484]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPrincipal688AF90B4D02E3624290708332554DE1.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPrincipal.uasset'
+[2025.10.23-06.32.41:259][484]AssetCheck: New page: Asset Save: WBP_MenuPrincipal
+[2025.10.23-06.32.41:259][484]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuPrincipal.WBP_MenuPrincipal
+[2025.10.23-06.32.46:100][844]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.32.46:110][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-06.32.46:110][844]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:32:46)
+[2025.10.23-06.32.46:111][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.32.46:113][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2025.10.23-06.32.46:114][844]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.32.46:115][844]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2025.10.23-06.32.46:115][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.004122s)
+[2025.10.23-06.32.46:152][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2025.10.23-06.32.46:153][844]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.32.46:153][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.32.46:153][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.32.46:153][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.32.46:153][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.32.46:153][844]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.32.46:157][844]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.32.46:157][844]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.32.46:203][844]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.32.46:203][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.32.46:203][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.32.46:203][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.32.46:205][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.32.46:206][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.32.46:206][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.32.46:208][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.32.46:208][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.32.46:208][844]LogInit: FAudioDevice initialized.
+[2025.10.23-06.32.46:208][844]LogAudio: Display: Audio Device (ID: 30) registered with world 'PropsMichelle'.
+[2025.10.23-06.32.46:222][844]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.32.46:224][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.32.46
+[2025.10.23-06.32.46:225][844]LogWorld: Bringing up level for play took: 0.000877
+[2025.10.23-06.32.46:225][844]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2025.10.23-06.32.46:230][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.32.46:233][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.32.46:236][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.32.46:238][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.32.46:241][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.32.46:244][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.32.46:247][844]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.32.46:250][844]PIE: Server logged in
+[2025.10.23-06.32.46:251][844]PIE: Play in editor total start time 0.143 seconds.
+[2025.10.23-06.32.47:339][949]LogPackageName: SearchForPackageOnDisk took   0.145s, but failed to resolve None.umap.
+[2025.10.23-06.32.47:504][949]LogPackageName: SearchForPackageOnDisk took   0.164s, but failed to resolve None.umap.
+[2025.10.23-06.32.47:504][949]LogNet: Browse: /Game/Maps/MainPersistent
+[2025.10.23-06.32.47:504][949]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.32.47:505][949]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.47:505][949]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.47:505][949]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.32.47:505][949]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.47:505][949]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.47:538][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.32.47:539][949]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.32.47:539][949]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.32.47:539][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.32.47:556][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.32.47:562][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.32.47:599][949]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-06.32.47:599][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.32.47:601][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.32.47:603][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.32.47:609][949]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2025.10.23-06.32.47:746][950]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.10.23-06.32.49:024][  0]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.32.49:063][  0]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.32.50:742][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.32.50:752][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-06.32.50:752][ 88]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:32:50)
+[2025.10.23-06.32.50:753][ 88]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.32.50:755][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003382s)
+[2025.10.23-06.32.50:756][ 88]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.32.50:757][ 88]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2025.10.23-06.32.50:757][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.004702s)
+[2025.10.23-06.32.50:790][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2025.10.23-06.32.50:791][ 88]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.32.50:791][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.32.50:791][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.32.50:791][ 88]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.32.50:792][ 88]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.32.50:792][ 88]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.32.50:792][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.32.50:794][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.32.50:794][ 88]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.32.50:837][ 88]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.32.50:837][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.32.50:837][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.32.50:837][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.32.50:838][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.32.50:838][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.32.50:838][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.32.50:839][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.32.50:839][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.32.50:839][ 88]LogInit: FAudioDevice initialized.
+[2025.10.23-06.32.50:839][ 88]LogAudio: Display: Audio Device (ID: 31) registered with world 'PropsMichelle'.
+[2025.10.23-06.32.50:848][ 88]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.32.50:849][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.32.50
+[2025.10.23-06.32.50:849][ 88]LogWorld: Bringing up level for play took: 0.000600
+[2025.10.23-06.32.50:850][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2025.10.23-06.32.50:854][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.32.50:857][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.32.50:859][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.32.50:862][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.32.50:864][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.32.50:866][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.32.50:869][ 88]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.32.50:871][ 88]PIE: Server logged in
+[2025.10.23-06.32.50:872][ 88]PIE: Play in editor total start time 0.121 seconds.
+[2025.10.23-06.32.52:183][155]LogPackageName: SearchForPackageOnDisk took   0.142s, but failed to resolve None.umap.
+[2025.10.23-06.32.52:364][155]LogPackageName: SearchForPackageOnDisk took   0.180s, but failed to resolve None.umap.
+[2025.10.23-06.32.52:364][155]LogNet: Browse: /Game/Maps/MainPersistent
+[2025.10.23-06.32.52:366][155]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.32.52:366][155]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.52:366][155]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.52:366][155]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.32.52:366][155]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.52:366][155]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.32.52:401][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.32.52:402][155]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.32.52:402][155]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.32.52:402][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.32.52:426][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.32.52:433][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.32.52:471][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.32.52:472][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.32.52:473][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.32.52:485][155]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2025.10.23-06.32.52:642][156]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2025.10.23-06.32.54:459][211]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.32.54:523][211]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.32.56:692][286]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.32.56:701][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-06.32.56:701][286]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:32:56)
+[2025.10.23-06.32.56:701][286]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.32.56:706][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004219s)
+[2025.10.23-06.32.56:707][286]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.32.56:708][286]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2025.10.23-06.32.56:708][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.006173s)
+[2025.10.23-06.32.56:753][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2025.10.23-06.32.56:754][286]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.32.56:754][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.32.56:754][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.32.56:755][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.32.56:755][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.32.56:755][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.32.56:755][286]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.32.56:757][286]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.32.56:757][286]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.32.56:815][286]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.32.56:816][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.32.56:816][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.32.56:816][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.32.56:816][286]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.32.56:816][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.32.56:817][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.32.56:818][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.32.56:818][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.32.56:818][286]LogInit: FAudioDevice initialized.
+[2025.10.23-06.32.56:818][286]LogAudio: Display: Audio Device (ID: 32) registered with world 'PropsMichelle'.
+[2025.10.23-06.32.56:829][286]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.32.56:831][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.32.56
+[2025.10.23-06.32.56:832][286]LogWorld: Bringing up level for play took: 0.001037
+[2025.10.23-06.32.56:832][286]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2025.10.23-06.32.56:838][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.32.56:841][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.32.56:845][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.32.56:849][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.32.56:852][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.32.56:856][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.32.56:859][286]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.32.56:862][286]PIE: Server logged in
+[2025.10.23-06.32.56:863][286]PIE: Play in editor total start time 0.163 seconds.
+[2025.10.23-06.33.06:489][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.33.06:490][717]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.33.06:490][717]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.33.06:490][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.33.06:508][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.33.06:515][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.33.06:558][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.33.06:559][717]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.33.06:561][717]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.33.06:573][717]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2025.10.23-06.33.06:602][718]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2025.10.23-06.33.27:035][203]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.10.23-06.33.27:072][203]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.10.23-06.33.34:720][ 46]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_Pausa
+[2025.10.23-06.33.34:727][ 46]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.10.23-06.33.37:747][207]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Widgets/WBP_Pausa.WBP_Pausa
+[2025.10.23-06.34.20:044][465]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-06.34.36:099][ 50]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-06.35.35:174][ 12]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-06.38.52:902][498]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.23-06.38.52:934][498]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.10.23-06.39.30:134][654]BlueprintLog: New page: Compile WBP_MenuPrincipal
+[2025.10.23-06.39.30:194][654]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2025.10.23-06.39.31:241][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuPrincipal" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPrincipal.uasset" SILENT=true
+[2025.10.23-06.39.31:270][686]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPrincipal0A2701E445D156088C34CDB4571F337C.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPrincipal.uasset'
+[2025.10.23-06.39.31:322][686]AssetCheck: New page: Asset Save: WBP_MenuPrincipal
+[2025.10.23-06.39.31:322][686]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuPrincipal.WBP_MenuPrincipal
+[2025.10.23-06.39.34:514][846]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.39.34:527][846]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.10.23-06.39.34:532][846]LogPlayLevel: [PlayLevel] Compiling WBP_Pausa before play...
+[2025.10.23-06.39.34:597][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2025.10.23-06.39.34:598][846]LogPlayLevel: PlayLevel: Blueprint regeneration took 70 ms (1 blueprints)
+[2025.10.23-06.39.34:598][846]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:39:34)
+[2025.10.23-06.39.34:796][846]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.39.34:799][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003777s)
+[2025.10.23-06.39.34:801][846]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.39.34:802][846]LogPlayLevel: PIE: World Init took: (0.002272s)
+[2025.10.23-06.39.34:802][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.006302s)
+[2025.10.23-06.39.34:839][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2025.10.23-06.39.34:840][846]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.39.34:840][846]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.39.34:840][846]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.39.34:840][846]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.39.34:840][846]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.39.34:841][846]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.39.34:841][846]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.39.34:845][846]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.39.34:845][846]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.39.34:896][846]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.39.34:896][846]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.39.34:896][846]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.39.34:896][846]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.39.34:897][846]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.39.34:897][846]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.39.34:897][846]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.39.34:900][846]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.39.34:900][846]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.39.34:900][846]LogInit: FAudioDevice initialized.
+[2025.10.23-06.39.34:900][846]LogAudio: Display: Audio Device (ID: 33) registered with world 'PropsMichelle'.
+[2025.10.23-06.39.34:915][846]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.39.34:916][846]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.39.34
+[2025.10.23-06.39.34:916][846]LogWorld: Bringing up level for play took: 0.000771
+[2025.10.23-06.39.34:916][846]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2025.10.23-06.39.34:921][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.39.34:923][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.39.34:926][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.39.34:929][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.39.34:932][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.39.34:934][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.39.34:937][846]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.39.34:940][846]PIE: Server logged in
+[2025.10.23-06.39.34:941][846]PIE: Play in editor total start time 0.417 seconds.
+[2025.10.23-06.39.44:479][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.39.44:479][433]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.39.44:479][433]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.39.44:480][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.39.44:499][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.39.44:506][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.39.44:557][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.39.44:558][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.39.44:559][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.39.44:572][433]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2025.10.23-06.39.44:608][434]Cmd: SELECT NONE
+[2025.10.23-06.39.44:661][434]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.10.23-06.39.46:727][539]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.39.46:737][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-06.39.46:737][539]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:39:46)
+[2025.10.23-06.39.46:738][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.39.46:741][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002968s)
+[2025.10.23-06.39.46:742][539]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.39.46:742][539]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2025.10.23-06.39.46:742][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.004227s)
+[2025.10.23-06.39.46:780][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2025.10.23-06.39.46:781][539]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.39.46:781][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.39.46:781][539]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.39.46:781][539]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.39.46:781][539]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.39.46:781][539]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.39.46:785][539]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.39.46:785][539]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.39.46:829][539]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.39.46:830][539]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.39.46:830][539]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.39.46:830][539]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.39.46:830][539]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.39.46:830][539]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.39.46:830][539]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.39.46:832][539]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.39.46:832][539]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.39.46:832][539]LogInit: FAudioDevice initialized.
+[2025.10.23-06.39.46:832][539]LogAudio: Display: Audio Device (ID: 34) registered with world 'PropsMichelle'.
+[2025.10.23-06.39.46:844][539]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.39.46:847][539]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.39.46
+[2025.10.23-06.39.46:847][539]LogWorld: Bringing up level for play took: 0.001015
+[2025.10.23-06.39.46:848][539]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2025.10.23-06.39.46:852][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.39.46:854][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.39.46:857][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.39.46:859][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.39.46:862][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.39.46:864][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.39.46:867][539]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.39.46:870][539]PIE: Server logged in
+[2025.10.23-06.39.46:871][539]PIE: Play in editor total start time 0.135 seconds.
+[2025.10.23-06.39.50:140][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.39.50:140][734]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.39.50:141][734]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.39.50:141][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.39.50:155][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.39.50:163][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.39.50:207][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.39.50:207][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.39.50:209][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.39.50:218][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2025.10.23-06.39.50:237][735]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2025.10.23-06.42.32:831][698]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.23-06.44.39:890][323]LogContentBrowser: Attempting asset rename: WBP_Pausa -> WBP_MenuOpciones
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.SKEL_WBP_MenuOpciones_C' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.WBP_MenuOpciones_C' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.WBP_MenuOpciones:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.WBP_MenuOpciones:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.WBP_MenuOpciones:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.SKEL_WBP_MenuOpciones_C:PreConstruct' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.SKEL_WBP_MenuOpciones_C:Construct' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.SKEL_WBP_MenuOpciones_C:Tick' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.39:931][323]LogMetaData: Removing '/Game/UI/Widgets/WBP_MenuOpciones.SKEL_WBP_MenuOpciones_C:BndEvt__WBP_Pausa_Button_287_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/UI/Widgets/WBP_Pausa.PackageMetaData'
+[2025.10.23-06.44.40:044][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuOpciones" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuOpciones.uasset" SILENT=true
+[2025.10.23-06.44.40:062][323]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuOpciones767D8A234BE2E3D2FD2D1E8151B0C602.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuOpciones.uasset'
+[2025.10.23-06.44.40:453][323]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2025.10.23-06.44.40:514][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2025.10.23-06.44.40:548][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.10.23-06.44.40:610][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuPrincipal" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPrincipal.uasset" SILENT=true
+[2025.10.23-06.44.40:634][323]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPrincipalB1E38ECE4600042ECFE3CE8B306BC466.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuPrincipal.uasset'
+[2025.10.23-06.44.40:772][323]AssetCheck: New page: Asset Save: multiple assets
+[2025.10.23-06.44.40:772][323]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuPrincipal.WBP_MenuPrincipal
+[2025.10.23-06.44.40:773][323]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuOpciones.WBP_MenuOpciones
+[2025.10.23-06.44.55:160][781]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.23-06.44.55:188][781]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.10.23-06.45.01:578][906]BlueprintLog: New page: Compile WBP_MenuOpciones
+[2025.10.23-06.45.01:647][906]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2025.10.23-06.45.02:329][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Widgets/WBP_MenuOpciones" FILE="../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuOpciones.uasset" SILENT=true
+[2025.10.23-06.45.02:346][918]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuOpcionesB464A3894CF410BEC0C04B8D2F57FDEA.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Content/UI/Widgets/WBP_MenuOpciones.uasset'
+[2025.10.23-06.45.02:429][918]AssetCheck: New page: Asset Save: WBP_MenuOpciones
+[2025.10.23-06.45.02:430][918]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Widgets/WBP_MenuOpciones.WBP_MenuOpciones
+[2025.10.23-06.45.05:465][ 41]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.45.05:477][ 41]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.10.23-06.45.05:503][ 41]LogPlayLevel: [PlayLevel] Compiling WBP_MenuPausa before play...
+[2025.10.23-06.45.05:551][ 41]LogPlayLevel: [PlayLevel] Compiling WBP_MenuPrincipal before play...
+[2025.10.23-06.45.05:624][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2025.10.23-06.45.05:625][ 41]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (2 blueprints)
+[2025.10.23-06.45.05:625][ 41]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:45:05)
+[2025.10.23-06.45.05:625][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.45.05:628][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003350s)
+[2025.10.23-06.45.05:629][ 41]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.45.05:630][ 41]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2025.10.23-06.45.05:630][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.004933s)
+[2025.10.23-06.45.05:665][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2025.10.23-06.45.05:665][ 41]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.45.05:665][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.45.05:666][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.45.05:666][ 41]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.45.05:666][ 41]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.45.05:666][ 41]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.45.05:666][ 41]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.45.05:669][ 41]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.45.05:669][ 41]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.45.05:717][ 41]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.45.05:719][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.45.05:719][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.45.05:719][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.45.05:720][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.45.05:720][ 41]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.45.05:720][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.45.05:722][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.45.05:722][ 41]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.45.05:722][ 41]LogInit: FAudioDevice initialized.
+[2025.10.23-06.45.05:722][ 41]LogAudio: Display: Audio Device (ID: 35) registered with world 'PropsMichelle'.
+[2025.10.23-06.45.05:742][ 41]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.45.05:744][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.45.05
+[2025.10.23-06.45.05:746][ 41]LogWorld: Bringing up level for play took: 0.000953
+[2025.10.23-06.45.05:746][ 41]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2025.10.23-06.45.05:752][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.45.05:756][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.45.05:759][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.45.05:763][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.45.05:766][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.45.05:769][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.45.05:772][ 41]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.45.05:775][ 41]PIE: Server logged in
+[2025.10.23-06.45.05:776][ 41]PIE: Play in editor total start time 0.301 seconds.
+[2025.10.23-06.45.14:815][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.45.14:816][582]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.45.14:816][582]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.45.14:817][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.45.14:836][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.45.14:841][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.45.14:872][582]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.23-06.45.14:872][582]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.45.14:874][582]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.45.14:876][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.45.14:881][582]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2025.10.23-06.45.14:928][583]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2025.10.23-06.45.16:676][677]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.45.16:687][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-06.45.16:687][677]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:45:16)
+[2025.10.23-06.45.16:687][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.45.16:690][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003341s)
+[2025.10.23-06.45.16:691][677]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.45.16:692][677]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2025.10.23-06.45.16:692][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.004814s)
+[2025.10.23-06.45.16:734][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2025.10.23-06.45.16:736][677]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.45.16:736][677]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.45.16:736][677]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.45.16:736][677]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.45.16:737][677]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.45.16:737][677]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.45.16:737][677]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.45.16:740][677]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.45.16:740][677]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.45.16:784][677]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.45.16:784][677]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.45.16:786][677]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.45.16:786][677]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.45.16:786][677]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.45.16:786][677]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.45.16:786][677]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.45.16:788][677]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.45.16:788][677]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.45.16:788][677]LogInit: FAudioDevice initialized.
+[2025.10.23-06.45.16:788][677]LogAudio: Display: Audio Device (ID: 36) registered with world 'PropsMichelle'.
+[2025.10.23-06.45.16:797][677]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.45.16:799][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.45.16
+[2025.10.23-06.45.16:799][677]LogWorld: Bringing up level for play took: 0.000622
+[2025.10.23-06.45.16:799][677]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2025.10.23-06.45.16:804][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.45.16:807][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.45.16:810][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.45.16:813][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.45.16:817][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.45.16:821][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.45.16:824][677]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.45.16:828][677]PIE: Server logged in
+[2025.10.23-06.45.16:829][677]PIE: Play in editor total start time 0.143 seconds.
+[2025.10.23-06.45.25:578][193]LogPackageName: SearchForPackageOnDisk took   0.153s, but failed to resolve None.umap.
+[2025.10.23-06.45.25:758][193]LogPackageName: SearchForPackageOnDisk took   0.176s, but failed to resolve None.umap.
+[2025.10.23-06.45.25:759][193]LogNet: Browse: /Game/Maps/MainPersistent
+[2025.10.23-06.45.25:759][193]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.45.25:759][193]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.45.25:759][193]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.45.25:759][193]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.45.25:759][193]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.45.25:759][193]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.45.25:799][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.45.25:799][193]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.45.25:799][193]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.45.25:799][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.45.25:819][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.45.25:826][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.45.25:862][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.45.25:862][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.45.25:864][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.45.25:877][193]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2025.10.23-06.45.26:047][194]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2025.10.23-06.45.28:209][238]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.45.28:298][238]LogSlate: Window 'Message Log' being destroyed
+[2025.10.23-06.45.31:197][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2025.10.23-06.45.36:764][460]LogTemp: Repeating last play command: Selected Viewport
+[2025.10.23-06.45.36:773][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.23-06.45.36:773][460]PIE: New page: PIE session: PropsMichelle (22 oct. 2025 19:45:36)
+[2025.10.23-06.45.36:773][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.45.36:776][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002763s)
+[2025.10.23-06.45.36:777][460]LogAIModule: Creating AISystem for world PropsMichelle
+[2025.10.23-06.45.36:777][460]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2025.10.23-06.45.36:777][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PropsMichelle.PropsMichelle to /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle (0.004000s)
+[2025.10.23-06.45.36:813][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2025.10.23-06.45.36:816][460]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.23-06.45.36:816][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.23-06.45.36:816][460]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.23-06.45.36:816][460]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.23-06.45.36:816][460]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.23-06.45.36:816][460]LogAudioMixer: Display: Initializing audio mixer.
+[2025.10.23-06.45.36:820][460]LogAudioMixer: Display: 0: FrontLeft
+[2025.10.23-06.45.36:820][460]LogAudioMixer: Display: 1: FrontRight
+[2025.10.23-06.45.36:864][460]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.10.23-06.45.36:864][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.23-06.45.36:865][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.23-06.45.36:865][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.23-06.45.36:865][460]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.10.23-06.45.36:865][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.10.23-06.45.36:865][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.10.23-06.45.36:866][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.10.23-06.45.36:866][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.10.23-06.45.36:866][460]LogInit: FAudioDevice initialized.
+[2025.10.23-06.45.36:866][460]LogAudio: Display: Audio Device (ID: 37) registered with world 'PropsMichelle'.
+[2025.10.23-06.45.36:884][460]LogLoad: Game class is 'BP_GameMode_C'
+[2025.10.23-06.45.36:887][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PropsMichelle.PropsMichelle up for play (max tick rate 0) at 2025.10.23-00.45.36
+[2025.10.23-06.45.36:887][460]LogWorld: Bringing up level for play took: 0.001042
+[2025.10.23-06.45.36:888][460]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2025.10.23-06.45.36:894][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Sarten
+[2025.10.23-06.45.36:897][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Olla
+[2025.10.23-06.45.36:901][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_LlaveInglesa
+[2025.10.23-06.45.36:904][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Escoba
+[2025.10.23-06.45.36:907][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Trapeador
+[2025.10.23-06.45.36:911][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Extintor
+[2025.10.23-06.45.36:913][460]LogBlueprintUserMessages: [BP_ClareCharacter_C_0] BP_Cuchillo
+[2025.10.23-06.45.36:916][460]PIE: Server logged in
+[2025.10.23-06.45.36:917][460]PIE: Play in editor total start time 0.145 seconds.
+[2025.10.23-06.47.04:678][679]LogPackageName: SearchForPackageOnDisk took   0.186s, but failed to resolve None.umap.
+[2025.10.23-06.47.04:823][679]LogPackageName: SearchForPackageOnDisk took   0.142s, but failed to resolve None.umap.
+[2025.10.23-06.47.04:823][679]LogNet: Browse: /Game/Maps/MainPersistent
+[2025.10.23-06.47.04:823][679]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.47.04:823][679]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.47.04:823][679]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.47.04:823][679]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/MainPersistent
+[2025.10.23-06.47.04:823][679]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.47.04:823][679]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/MainPersistent'. Shutting down PIE.
+[2025.10.23-06.47.04:858][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.47.04:858][679]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_PropsMichelle
+[2025.10.23-06.47.04:858][679]LogWorld: UWorld::CleanupWorld for PropsMichelle, bSessionEnded=true, bCleanupResources=true
+[2025.10.23-06.47.04:859][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.47.04:869][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.23-06.47.04:891][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.23-06.47.04:923][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.23-06.47.04:923][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.47.04:924][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.10.23-06.47.04:932][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2025.10.23-06.47.05:062][680]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2025.10.23-06.47.38:575][933]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2025.10.23-06.47.38:580][933]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/PropsMichelle' took 0.044
+[2025.10.23-06.47.38:581][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Widgets/WBP_MenuPausa] ([4] browsable assets)...
+[2025.10.23-06.47.38:581][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Widgets/WBP_MenuPausa]
+[2025.10.23-06.47.38:602][933]LogSavePackage: Moving '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/WBP_MenuPausa_Auto1FEE06D944980E8536289E99975AA7A62.tmp' to '../../../../../../GitHub/TasteOfMadness/TasteOfMadness/Saved/Autosaves/Game/UI/Widgets/WBP_MenuPausa_Auto1.uasset'
+[2025.10.23-06.47.38:604][933]LogFileHelpers: Auto-saving content packages took 0.024

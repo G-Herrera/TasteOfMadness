@@ -93,6 +93,9 @@ Audio
 3 Clic en Fetch origin
 4 Clic en Repository --> pull (esto descarga la version mas reciente del proyecto)
 5 Ya actualizado crea o cambiate a tu propia rama
+`SI TU RAMA NO LA CREASTE ES DECIR TRABAJARAS EN UNA QUE YA EXISTIA ENTONCES:`
+    6 Cuando ya estes en tu rama debes ir a la pestaña de tu barra de herramientas branch--> merge into current branch --> develop
+        Esto hará que tu rama también se encuentre actualizada con los cambios más recientes. 
 
 --TRABAJAR DENTRO DE UNREAL ENGINE
 
